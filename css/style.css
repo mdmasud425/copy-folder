@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --heading-font:"Overlock", sans-serif;
+    --body-font: "Lato", sans-serif;
+    --primary-color: #1B1B1B;
+    --secondary-color: #E7272D;
+} 
+body{
+    font-family: var(--body-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: var(--heading-font);
+}
+a{
+    text-decoration: none;
+}
+:focus{
+    outline: none;
+}
+ul,
+ol {
+    list-style: none;
+}
